@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DAC516D147EE1B0007968A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC516C147EE1B0007968A7 /* UIKit.framework */; };
+		2DAC516F147EE1B0007968A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC516E147EE1B0007968A7 /* Foundation.framework */; };
+		2DAC5171147EE1B0007968A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC5170147EE1B0007968A7 /* CoreGraphics.framework */; };
+		2DAC5177147EE1B1007968A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC5175147EE1B1007968A7 /* InfoPlist.strings */; };
+		2DAC5179147EE1B1007968A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC5178147EE1B1007968A7 /* main.m */; };
+		2DAC517D147EE1B1007968A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC517C147EE1B1007968A7 /* AppDelegate.m */; };
+		2DAC5180147EE1B1007968A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC517F147EE1B1007968A7 /* ViewController.m */; };
+		2DAC5183147EE1B1007968A7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC5181147EE1B1007968A7 /* ViewController.xib */; };
+		2DAC518B147EE603007968A7 /* mainphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC5189147EE603007968A7 /* mainphone.png */; };
+		2DAC518C147EE603007968A7 /* mainphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC518A147EE603007968A7 /* mainphone@2x.png */; };
+		2DAC518E147EE822007968A7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC518D147EE822007968A7 /* icon.png */; };
+		2DAC5190147EE825007968A7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC518F147EE825007968A7 /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DAC5168147EE1B0007968A7 /* Telefonowanie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telefonowanie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAC516C147EE1B0007968A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DAC516E147EE1B0007968A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DAC5170147EE1B0007968A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DAC5174147EE1B1007968A7 /* Telefonowanie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Telefonowanie-Info.plist"; sourceTree = "<group>"; };
+		2DAC5176147EE1B1007968A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DAC5178147EE1B1007968A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DAC517A147EE1B1007968A7 /* Telefonowanie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Telefonowanie-Prefix.pch"; sourceTree = "<group>"; };
+		2DAC517B147EE1B1007968A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DAC517C147EE1B1007968A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DAC517E147EE1B1007968A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DAC517F147EE1B1007968A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DAC5182147EE1B1007968A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		2DAC5189147EE603007968A7 /* mainphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainphone.png; sourceTree = "<group>"; };
+		2DAC518A147EE603007968A7 /* mainphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainphone@2x.png"; sourceTree = "<group>"; };
+		2DAC518D147EE822007968A7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2DAC518F147EE825007968A7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DAC5165147EE1B0007968A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC516D147EE1B0007968A7 /* UIKit.framework in Frameworks */,
+				2DAC516F147EE1B0007968A7 /* Foundation.framework in Frameworks */,
+				2DAC5171147EE1B0007968A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DAC515D147EE1B0007968A7 = {
+			isa = PBXGroup;
+			children = (
+				2DAC518F147EE825007968A7 /* icon@2x.png */,
+				2DAC518D147EE822007968A7 /* icon.png */,
+				2DAC5172147EE1B0007968A7 /* Telefonowanie */,
+				2DAC516B147EE1B0007968A7 /* Frameworks */,
+				2DAC5169147EE1B0007968A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DAC5169147EE1B0007968A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC5168147EE1B0007968A7 /* Telefonowanie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DAC516B147EE1B0007968A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC516C147EE1B0007968A7 /* UIKit.framework */,
+				2DAC516E147EE1B0007968A7 /* Foundation.framework */,
+				2DAC5170147EE1B0007968A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DAC5172147EE1B0007968A7 /* Telefonowanie */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC517B147EE1B1007968A7 /* AppDelegate.h */,
+				2DAC517C147EE1B1007968A7 /* AppDelegate.m */,
+				2DAC517E147EE1B1007968A7 /* ViewController.h */,
+				2DAC517F147EE1B1007968A7 /* ViewController.m */,
+				2DAC5181147EE1B1007968A7 /* ViewController.xib */,
+				2DAC5189147EE603007968A7 /* mainphone.png */,
+				2DAC518A147EE603007968A7 /* mainphone@2x.png */,
+				2DAC5173147EE1B1007968A7 /* Supporting Files */,
+			);
+			path = Telefonowanie;
+			sourceTree = "<group>";
+		};
+		2DAC5173147EE1B1007968A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC5174147EE1B1007968A7 /* Telefonowanie-Info.plist */,
+				2DAC5175147EE1B1007968A7 /* InfoPlist.strings */,
+				2DAC5178147EE1B1007968A7 /* main.m */,
+				2DAC517A147EE1B1007968A7 /* Telefonowanie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DAC5167147EE1B0007968A7 /* Telefonowanie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DAC5186147EE1B1007968A7 /* Build configuration list for PBXNativeTarget "Telefonowanie" */;
+			buildPhases = (
+				2DAC5164147EE1B0007968A7 /* Sources */,
+				2DAC5165147EE1B0007968A7 /* Frameworks */,
+				2DAC5166147EE1B0007968A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telefonowanie;
+			productName = Telefonowanie;
+			productReference = 2DAC5168147EE1B0007968A7 /* Telefonowanie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DAC515F147EE1B0007968A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2DAC5162147EE1B0007968A7 /* Build configuration list for PBXProject "Telefonowanie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DAC515D147EE1B0007968A7;
+			productRefGroup = 2DAC5169147EE1B0007968A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DAC5167147EE1B0007968A7 /* Telefonowanie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DAC5166147EE1B0007968A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC5177147EE1B1007968A7 /* InfoPlist.strings in Resources */,
+				2DAC5183147EE1B1007968A7 /* ViewController.xib in Resources */,
+				2DAC518B147EE603007968A7 /* mainphone.png in Resources */,
+				2DAC518C147EE603007968A7 /* mainphone@2x.png in Resources */,
+				2DAC518E147EE822007968A7 /* icon.png in Resources */,
+				2DAC5190147EE825007968A7 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DAC5164147EE1B0007968A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC5179147EE1B1007968A7 /* main.m in Sources */,
+				2DAC517D147EE1B1007968A7 /* AppDelegate.m in Sources */,
+				2DAC5180147EE1B1007968A7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DAC5175147EE1B1007968A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DAC5176147EE1B1007968A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DAC5181147EE1B1007968A7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DAC5182147EE1B1007968A7 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DAC5184147EE1B1007968A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DAC5185147EE1B1007968A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DAC5187147EE1B1007968A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Telefonowanie/Telefonowanie-Prefix.pch";
+				INFOPLIST_FILE = "Telefonowanie/Telefonowanie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DAC5188147EE1B1007968A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Telefonowanie/Telefonowanie-Prefix.pch";
+				INFOPLIST_FILE = "Telefonowanie/Telefonowanie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DAC5162147EE1B0007968A7 /* Build configuration list for PBXProject "Telefonowanie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAC5184147EE1B1007968A7 /* Debug */,
+				2DAC5185147EE1B1007968A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DAC5186147EE1B1007968A7 /* Build configuration list for PBXNativeTarget "Telefonowanie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAC5187147EE1B1007968A7 /* Debug */,
+				2DAC5188147EE1B1007968A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DAC515F147EE1B0007968A7 /* Project object */;
+}
